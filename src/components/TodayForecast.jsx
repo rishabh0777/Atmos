@@ -13,10 +13,10 @@ const TodayForecast = () => {
 
   return (
     <>
-     <div className='w-full h-[10%] xsm:h-[13%] flex justify-center items-center text-2xl xsm:text-[1.5em]'>
+     <div className='w-full lg:h-[20%] xsm:h-[13%] flex justify-center items-center text-2xl xsm:text-[1.5em]'>
     <h1 className='xsm:text-[2.3rem]'>Today's Forecast</h1>
   </div>
-    <div className='w-full p-2 h-[90%] xsm:h-[87%] flex flex-wrap xsm:grid xsm:grid-cols-2 xsm:justify-items-center'>
+    <div className='w-full p-2 lg:h-[80%] xsm:h-[87%] lg:grid-cols-3 xsm:grid xsm:grid-cols-2 xsm:justify-items-center'>
    
       {atmos ? (
         <>
@@ -30,7 +30,7 @@ const TodayForecast = () => {
             />
           ))}
           <div 
-     className='w-[15rem] h-[15rem] flex flex-col items-center justify-center p-2 text-white  mx-10 rounded-lg xsm:w-[10rem] xsm:h-[10rem]'>
+     className='flex flex-col items-center justify-center p-2 text-white  mx-10 rounded-lg xsm:w-[10rem] xsm:h-[10rem] '>
        <h1 onClick={()=> navigate('/5days')}><i class="ri-arrow-right-circle-fill text-[3rem]"></i></h1>
      </div>
         </>
