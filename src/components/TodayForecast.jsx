@@ -13,10 +13,10 @@ const TodayForecast = () => {
 
   return (
     <>
-     <div className='w-full h-[10%] flex justify-center items-center text-2xl'>
-    <h1>Today's Forecast</h1>
+     <div className='w-full h-[10%] xsm:h-[13%] flex justify-center items-center text-2xl xsm:text-[1.5em]'>
+    <h1 className='xsm:text-[2.3rem]'>Today's Forecast</h1>
   </div>
-    <div className='w-full p-2 h-[90%] flex flex-wrap xsm:grid xsm:grid-cols-2'>
+    <div className='w-full p-2 h-[90%] xsm:h-[87%] flex flex-wrap xsm:grid xsm:grid-cols-2 xsm:justify-items-center'>
    
       {atmos ? (
         <>

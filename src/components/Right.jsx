@@ -5,7 +5,7 @@ import {  Routes, Route, Navigate } from 'react-router-dom'
 
 const Right = () => {
   return (
-    <div className='w-[72%] h-screen bg-[#201022] text-white xsm:w-full xsm:h-screen'>
+    <div className='w-[72%] h-screen bg-[#1b0951] text-white xsm:w-full xsm:h-screen'>
       
     <Routes>
       <Route path='/today'
