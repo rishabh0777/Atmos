@@ -109,7 +109,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Atmos/', // Base path for GitHub Pages
+  base: '/Atmos/', // This is Base path for GitHub Pages
 })
 \`\`\`
 
