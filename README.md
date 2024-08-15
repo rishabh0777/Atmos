@@ -20,11 +20,10 @@ Check out the live demo of the app [here](https://rishabh0777.github.io/Atmos/).
 
 To run this project locally, follow these steps:
 
-1. **Clone the repository**:
-    \`\`\`sh
+1. Clone the repository:
     git clone https://github.com/rishabh0777/Atmos.git
-    cd Atmos
-    \`\`\`
+cd Atmos
+
 
 2. **Install dependencies**:
     \`\`\`sh
