@@ -41,8 +41,10 @@ const FiveDaysForecast = () => {
       {atmos ? (
         <>
          <div 
-     className='flex flex-col items-center justify-center p-2 text-white  mx-10 rounded-lg xsm:w-[10rem] xsm:h-[10rem] '>
-       <h1 onClick={()=> navigate('/today')}><i class="ri-arrow-left-circle-fill text-[3rem]"></i></h1>
+         onClick={()=> navigate('/today')}
+     className='flex flex-col items-center justify-evenly text-black bg-white shadow-lg shadow-black px-1 py-4 text-[0.8em] font-bold mx-10 rounded-lg xsm:w-[10rem] xsm:h-[10rem] cursor-pointer'>
+      <h2>Three Hour Forecaste</h2>
+       <h1><i class="ri-arrow-left-circle-fill mt-10 text-4xl"></i></h1>
      </div>
           {getDailyForecast(atmos.list).slice(0, 5).map((forecast, index) => (
             <Daily 

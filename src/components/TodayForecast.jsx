@@ -30,8 +30,10 @@ const TodayForecast = () => {
             />
           ))}
           <div 
-     className='flex flex-col items-center justify-center p-2 text-white  mx-10 rounded-lg xsm:w-[10rem] xsm:h-[10rem] '>
-       <h1 onClick={()=> navigate('/5days')}><i class="ri-arrow-right-circle-fill text-[3rem]"></i></h1>
+          onClick={()=> navigate('/5days')}
+     className='flex flex-col items-center justify-evenly text-black bg-white shadow-lg shadow-black px-1 py-4 text-[0.8em] font-bold mx-10 rounded-lg xsm:w-[10rem] xsm:h-[10rem] cursor-pointer'>
+      <h2>Five Day's Forecast</h2>
+       <h1><i class="ri-arrow-right-circle-fill mt-10 text-4xl"></i></h1>
      </div>
         </>
       ) : (
